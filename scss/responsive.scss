@@ -1,0 +1,49 @@
+@media screen and (max-width: 800px){
+    .navContent{
+        display: none;
+    }
+    .second__navlist{
+        display: none;
+    }
+    .responsive__navBurger{
+        display: block;
+    }
+    .second-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner__text{
+        h1{
+            font-size: 50px;
+        }
+        h2{
+            font-size: 30px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .mobileApp{
+        margin-top: 20px;
+    }
+    .headline__title{
+        display: block;
+        :last-child{
+            margin-left: 0;
+        }
+    }
+    .animasl_headline-inner{
+        :last-child{
+            font-size: 20px;
+        }
+    }
+    .mobileApp{
+        overflow: scroll;
+    }
+    .service-item{
+        margin-top: 20px;
+    }
+    .event__description{
+        padding: 0 10px;
+    }
+}
